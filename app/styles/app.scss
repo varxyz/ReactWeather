@@ -3,6 +3,7 @@ $space-large: 2.5rem;
 .page-title {
   margin-bottom: $space-large;
   margin-top: $space-large*2;
+  color: #fdfdfd;
 }
 
 input[type=search] {
@@ -15,12 +16,19 @@ input[type=search] {
 // background: linear-gradient(to left, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-background: #B993D6; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// background: #B993D6; /* fallback for old browsers */
+background: -webkit-linear-gradient(-45deg, #8363a1 0%, #74a8c3 100%); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(135deg, #8363a1 0%, #74a8c3 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
 
 .wh {
   height: 100vh;
+}
+
+.title {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%), -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+   padding: 5px 10px;
 }
