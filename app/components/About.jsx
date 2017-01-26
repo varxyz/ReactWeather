@@ -16,8 +16,8 @@ var React = require('react');
 var About = (props) => {
   return (
       <div>
-        <h3>Abot</h3>
-        <p>Welcome to About page!</p>
+        <h1 className="text-center">About</h1>
+        <p>This is a simple application build on top of REACT and NodeJS!</p>
       </div>
   );
 };
