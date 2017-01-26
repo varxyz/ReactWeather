@@ -15,8 +15,11 @@ var React = require('react');
 
 var About = (props) => {
   return (
-      <h3>Abot Component</h3>
-    )
+      <div>
+        <h3>Abot</h3>
+        <p>Welcome to About page!</p>
+      </div>
+  );
 };
 
 module.exports = About;
